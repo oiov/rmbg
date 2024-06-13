@@ -31,12 +31,8 @@ export const Editor = () => {
   const [dialogProgress, setDialogProgress] = useState<number>(0)
   const [dialogTotal, setDialogTotal] = useState<number>(100)
 
-  const [imageData, setImageData] = useState<string | null>(
-    "https://img.vmail.dev/api/img/HTNRZ5"
-  )
-  const [resultData, setResultData] = useState<string | null>(
-    "https://img.vmail.dev/api/img/M3XdHi"
-  )
+  const [imageData, setImageData] = useState<string | null>("/example.png")
+  const [resultData, setResultData] = useState<string | null>("/example-rm.png")
 
   const handleDataChange = (file: File[] | null) => {
     if (file) {
