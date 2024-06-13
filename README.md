@@ -1,11 +1,11 @@
-<h1 align="center">✨ Removerized - Free AI Background Remover Tool</h1>
+<h1 align="center">✨ Remover - Free AI Background Remover Tool</h1>
 
 <p align="center">
 🖼️ Effortlessly Remove Image Backgrounds with AI - 🆓 Free & Limitless with 🛩️ Offline Support
 </p>
 
 <p align="center">
-<a href="https://rmbg.sorapi.dev/" target="_blank">rmbg.sorapi.dev</a>
+<a href="https://remover.sorapi.dev/" target="_blank">remover.sorapi.dev</a>
 </p>
 
 ![blog](docs/banner.png)

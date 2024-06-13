@@ -43,21 +43,6 @@ export function SiteHeader() {
                 <span className="sr-only">X</span>
               </div>
             </Link>
-            <Link
-              href={siteConfig.links.telegram}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div
-                className={buttonVariants({
-                  size: "icon",
-                  variant: "ghost",
-                })}
-              >
-                <Icons.Telegram className="size-5 fill-current" />
-                <span className="sr-only">Telegram</span>
-              </div>
-            </Link>
             <ThemeToggle />
           </nav>
         </div>

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://removerized.pages.dev/og.png",
+        url: "https://remove.sorapi.dev/og.png",
       },
     ],
   },
@@ -61,12 +61,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
+            "min-h-screen font-sans antialiased h-full w-full bg-black bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]",
             fontSans.variable
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <main className="relative flex h-screen min-h-screen flex-col">
+            <main className="relative flex h-screen min-h-screen flex-col bg-[radial-gradient(circle_400px_at_50%_300px,#a7b1b036,#000)]">
               <SiteHeader />
 
               <div className="flex-1">{children}</div>
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <TailwindIndicator />
           </ThemeProvider>
         </body>
-        <GoogleAnalytics gaId="G-20G8R0K6W9" />
+        <GoogleAnalytics gaId="G-0R1BTLTYS3" />
       </html>
     </>
   )

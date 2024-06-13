@@ -50,7 +50,7 @@ export const Editor = () => {
   const handleDownload = () => {
     const link = document.createElement("a")
     link.href = resultData!
-    link.download = `removerized-${Date.now()}.png`
+    link.download = `remover-${Date.now()}.png`
     link.click()
   }
 
@@ -188,7 +188,7 @@ export const Editor = () => {
           disabled={!imageData}
         >
           <Icons.SolarGalleryRemoveLineDuotone className="mr-2 size-5"></Icons.SolarGalleryRemoveLineDuotone>
-          Process
+          Start
         </Button>
 
         <Button
