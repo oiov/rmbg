@@ -65,7 +65,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark">
             <main className="relative flex h-screen min-h-screen flex-col bg-[radial-gradient(circle_400px_at_50%_300px,#a7b1b036,#000)]">
               <SiteHeader />
 
