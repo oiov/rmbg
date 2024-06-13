@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<a href="https://removerized.pages.dev/" target="_blank">removerized.pages.dev</a>
+<a href="https://rmbg.sorapi.dev/" target="_blank">rmbg.sorapi.dev</a>
 </p>
 
 ![blog](docs/banner.png)

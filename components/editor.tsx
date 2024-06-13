@@ -31,8 +31,12 @@ export const Editor = () => {
   const [dialogProgress, setDialogProgress] = useState<number>(0)
   const [dialogTotal, setDialogTotal] = useState<number>(100)
 
-  const [imageData, setImageData] = useState<string | null>(null)
-  const [resultData, setResultData] = useState<string | null>(null)
+  const [imageData, setImageData] = useState<string | null>(
+    "https://img.vmail.dev/api/img/HTNRZ5"
+  )
+  const [resultData, setResultData] = useState<string | null>(
+    "https://img.vmail.dev/api/img/M3XdHi"
+  )
 
   const handleDataChange = (file: File[] | null) => {
     if (file) {
@@ -54,7 +58,7 @@ export const Editor = () => {
     ev.preventDefault()
 
     let config: Config = {
-      model: "small",
+      model: "isnet",
       debug: true,
       // publicPath: "http://localhost:3000/ai-data/", // path to the wasm files
       progress: (key, current, total) => {
