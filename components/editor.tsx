@@ -112,7 +112,7 @@ export const Editor = () => {
             },
           }}
           onValueChange={handleDataChange}
-          className="relative max-w-xs space-y-1 rounded-xl transition-all hover:bg-neutral-200 dark:hover:bg-neutral-900"
+          className="relative max-w-xs border border-dashed border-gray-700 hover:border-gray-400 space-y-1 rounded-xl transition-all hover:bg-neutral-200 dark:hover:bg-neutral-900"
         >
           <FileInput>
             <div className="flex w-full flex-col items-center justify-center pb-4 pt-3 ">
